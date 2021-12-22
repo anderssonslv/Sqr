@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">SQR.com<img src="imagens/sqr2.png" alt="" width="60px" id="logo">
+    </header>
+    <nav>
+        <a href="sqr.html" class="nave" target="self">Início</a>
+        <a href="quiz.html" class="nave" target="self">Quiz</a>
+        <a href="#" class="nave">Sobre</a>
+    </nav>
+
+    <main>
+        <h2>Quiz</h2>
+        
+        <article class="quiz">
+
+            <h2 class="selh2">Escolha uma bebida</h2>
+
+            <div class="container">
+                <h3><input type="radio" name="beb" id="cafe" checked>Café</h3>
+                <h3><input type="radio" name="beb" id="cerv">Cerveja</h3>
+                <h3><input type="radio" name="beb" id="cha" >Chá</h3>
+            </div>
+
+        </article>
+
+        <article class="quiz">
+            <h2 class="selh2">Escolha um Filme</h2>
+            
+            <div class="container">
+                <h3><input type="radio" name="fil" id="" checked>Harry Potter</h3>
+                <h3><input type="radio" name="fil" id="">Duro de Matar</h3>
+                <h3><input type="radio" name="fil" id="">Mercenarios</h3>
+            </div>
+
+        </article>
+
+        <article class="quiz">
+
+            <h2 class="selh2">Escolha um numero</h2>
+
+            <div class="container">
+                <h3><input type="radio" name="num" id="" checked>Onze</h3>
+                <h3><input type="radio" name="num" id="">Sete</h3>
+                <h3><input type="radio" name="num" id="">Nove</h3>
+            </div>
+
+
+        </article>
+
+        <h2 class="selh2" id="confirm" onclick="calc()">Confirmar</h2>
+
+        <article id="res" class="quiz">
+            <h2 class="selh2">Resultado!</h2>
+
+                <div id="divimg">
+                    <img src="" alt="" id="imagem">
+                </div>
+
+            <h3 style="text-align: center;" id="msg"></h3>
+        </article>
+
+        <footer>
+            <p>Desenvolvido Por <strong><a href="https://www.instagram.com/_andersson.sv/" target="_blank">Andersson Souza</a></strong></p>
+        </footer>
+
+        <script src="quizB99.js"></script>
+    </main>
+</body>
+</html>
